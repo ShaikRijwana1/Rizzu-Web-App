@@ -21,6 +21,13 @@
   </dependency>
   </dependencies>
   <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugin</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.3.2</version>
+      </plugin>
+        </plugins>
     <finalName>MyWebApp</finalName>
   </build>
 </project>
